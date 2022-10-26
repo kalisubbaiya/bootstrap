@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: sans-serif;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+.feature-row{
+	display:flex;
+	gap:3%;
+	padding:40px 0px;
+}
+.feature-col-1{
+	width:28%;
+	height:450px;
+	box-shadow:0 0 15px #ccc;
+	padding:0px 35px;
+	position:relative;
+}
+.feature-col-2{
+	width:69%;
+}
+.card{
+	width:100%;
+}
+.card h2{
+	margin-top:40px;
+}
+.card p{
+	margin-top:10px;
+}
+.contact{
+	display:flex;
+	gap:20px;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+.icon{
+	width:20px;
+	height:50px;	
+}
+i{
+	color:#3da5c5;
+}
+.feature-col-1 .card::before{
+	position:absolute;
+	content:"";
+	border-bottom:1px solid #ccc;
+	width:230px;
+	top:250px;
+	left:36px;
+}
+.feature-col-1 .card::after{
+	position:absolute;
+	content:"";
+	border-bottom:1px solid #ccc;
+	width:230px;
+	top:340px;
+	left:36px;
+}
+p{
+	font-size:14px;
+	line-height:1.5;
+	color:#8ba5af;
+}
+h4{
+	color:#636d74;
+}
+.card-row-1{
+	display:flex;
+}
+.card-row-1 div{
+	width:50%;
+	padding:0px 10px;
+}
+.card-row-1 .width{
+	width:100%;
+	height:44px;
+	padding:10px;
+	border:1px solid #ccc;
+}
+.card-row-2{
+	padding:0px 10px;
+	margin:25px 0px;
+}
+.card-row-2 .width{
+	width:100%;
+	height:45px;
+	padding:10px;
+	border:1px solid #ccc;
+}
+.card-row-3{
+	padding:0px 10px;
+}
+#Imessage{
+	width:100%;
+	padding:10px;
+	border:1px solid #ccc;
+}
+.button{
+	width:100%;
+	text-align:center;
+}
+button{
+	padding:15px 35px;
+	color:#fff;
+	background-color:#3da5c5;
+	border:#3da5c5;
+	margin-top:25px;
+}
